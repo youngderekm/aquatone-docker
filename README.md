@@ -4,7 +4,8 @@ This docker image does not recompile Aquatone or Chromium, it installs the binar
 
 Can be used as so:
 
-    echo 'www.cnn.com' | docker run -v ~/scratch/aquatone:/output --rm -i aquatone -out /output
-    # report and all output is not available in ~/scratch/aquatone
+    echo 'www.cnn.com' | docker run -v ~/scratch/aquatone:/output --rm -i youngderekm/aquatone -out /output
+
+    # report and all output is now available in ~/scratch/aquatone
 
 This project is licensed under the terms of the MIT license.
